@@ -1,0 +1,11 @@
+[tool.ruff]
+# Since you and the CI are on 3.13, we lock it here. (Card 1 allows 3.11 or newer).
+target-version = "py313"
+line-length = 88
+
+[tool.ruff.format]
+# Force Ruff to always use LF line endings
+line-ending = "lf"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

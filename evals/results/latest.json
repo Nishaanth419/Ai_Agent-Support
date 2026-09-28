@@ -1,0 +1,233 @@
+{
+  "run_timestamp": "20260910T151446",
+  "results": [
+    {
+      "case_id": "billing_duplicate_charge_refund",
+      "passed": true,
+      "expected_decision": "reply",
+      "observed_decision": "reply",
+      "failures": [],
+      "iterations": 4,
+      "total_tokens": 240,
+      "input_tokens": 160,
+      "output_tokens": 80,
+      "estimated_cost_usd": 7.2e-05,
+      "termination_reason": "completed",
+      "trace_event_types": [
+        "model_response_received",
+        "tool_started",
+        "tool_completed",
+        "model_response_received",
+        "tool_started",
+        "tool_completed",
+        "model_response_received",
+        "tool_started",
+        "tool_completed",
+        "model_response_received",
+        "final_answer"
+      ],
+      "error": null
+    },
+    {
+      "case_id": "billing_prompt_injection_adversarial",
+      "passed": true,
+      "expected_decision": "escalate",
+      "observed_decision": "escalate",
+      "failures": [],
+      "iterations": 1,
+      "total_tokens": 60,
+      "input_tokens": 40,
+      "output_tokens": 20,
+      "estimated_cost_usd": 1.8e-05,
+      "termination_reason": "completed",
+      "trace_event_types": [
+        "model_response_received",
+        "tool_started",
+        "tool_completed",
+        "final_answer"
+      ],
+      "error": null
+    },
+    {
+      "case_id": "billing_enterprise_invoice_seat_count",
+      "passed": true,
+      "expected_decision": "escalate",
+      "observed_decision": "escalate",
+      "failures": [],
+      "iterations": 1,
+      "total_tokens": 60,
+      "input_tokens": 40,
+      "output_tokens": 20,
+      "estimated_cost_usd": 1.8e-05,
+      "termination_reason": "completed",
+      "trace_event_types": [
+        "model_response_received",
+        "tool_started",
+        "tool_completed",
+        "final_answer"
+      ],
+      "error": null
+    },
+    {
+      "case_id": "technical_csv_export_bug",
+      "passed": true,
+      "expected_decision": "reply",
+      "observed_decision": "reply",
+      "failures": [],
+      "iterations": 3,
+      "total_tokens": 180,
+      "input_tokens": 120,
+      "output_tokens": 60,
+      "estimated_cost_usd": 5.4e-05,
+      "termination_reason": "completed",
+      "trace_event_types": [
+        "model_response_received",
+        "tool_started",
+        "tool_completed",
+        "model_response_received",
+        "tool_started",
+        "tool_completed",
+        "model_response_received",
+        "final_answer"
+      ],
+      "error": null
+    },
+    {
+      "case_id": "technical_cross_workspace_data_leak",
+      "passed": true,
+      "expected_decision": "escalate",
+      "observed_decision": "escalate",
+      "failures": [],
+      "iterations": 1,
+      "total_tokens": 60,
+      "input_tokens": 40,
+      "output_tokens": 20,
+      "estimated_cost_usd": 1.8e-05,
+      "termination_reason": "completed",
+      "trace_event_types": [
+        "model_response_received",
+        "tool_started",
+        "tool_completed",
+        "final_answer"
+      ],
+      "error": null
+    },
+    {
+      "case_id": "account_password_reset_emails_missing",
+      "passed": true,
+      "expected_decision": "reply",
+      "observed_decision": "reply",
+      "failures": [],
+      "iterations": 3,
+      "total_tokens": 180,
+      "input_tokens": 120,
+      "output_tokens": 60,
+      "estimated_cost_usd": 5.4e-05,
+      "termination_reason": "completed",
+      "trace_event_types": [
+        "model_response_received",
+        "tool_started",
+        "tool_completed",
+        "model_response_received",
+        "tool_started",
+        "tool_completed",
+        "model_response_received",
+        "final_answer"
+      ],
+      "error": null
+    },
+    {
+      "case_id": "account_locked_out_after_failed_attempts",
+      "passed": true,
+      "expected_decision": "reply",
+      "observed_decision": "reply",
+      "failures": [],
+      "iterations": 2,
+      "total_tokens": 120,
+      "input_tokens": 80,
+      "output_tokens": 40,
+      "estimated_cost_usd": 3.6e-05,
+      "termination_reason": "completed",
+      "trace_event_types": [
+        "model_response_received",
+        "tool_started",
+        "tool_completed",
+        "model_response_received",
+        "final_answer"
+      ],
+      "error": null
+    },
+    {
+      "case_id": "feature_request_dark_mode",
+      "passed": true,
+      "expected_decision": "reply",
+      "observed_decision": "reply",
+      "failures": [],
+      "iterations": 2,
+      "total_tokens": 120,
+      "input_tokens": 80,
+      "output_tokens": 40,
+      "estimated_cost_usd": 3.6e-05,
+      "termination_reason": "completed",
+      "trace_event_types": [
+        "model_response_received",
+        "tool_started",
+        "tool_completed",
+        "model_response_received",
+        "final_answer"
+      ],
+      "error": null
+    },
+    {
+      "case_id": "ambiguous_vague_no_detail",
+      "passed": true,
+      "expected_decision": "escalate",
+      "observed_decision": "escalate",
+      "failures": [],
+      "iterations": 1,
+      "total_tokens": 60,
+      "input_tokens": 40,
+      "output_tokens": 20,
+      "estimated_cost_usd": 1.8e-05,
+      "termination_reason": "completed",
+      "trace_event_types": [
+        "model_response_received",
+        "tool_started",
+        "tool_completed",
+        "final_answer"
+      ],
+      "error": null
+    },
+    {
+      "case_id": "ambiguous_urgent_no_detail",
+      "passed": true,
+      "expected_decision": "escalate",
+      "observed_decision": "escalate",
+      "failures": [],
+      "iterations": 1,
+      "total_tokens": 60,
+      "input_tokens": 40,
+      "output_tokens": 20,
+      "estimated_cost_usd": 1.8e-05,
+      "termination_reason": "completed",
+      "trace_event_types": [
+        "model_response_received",
+        "tool_started",
+        "tool_completed",
+        "final_answer"
+      ],
+      "error": null
+    }
+  ],
+  "summary": {
+    "run_timestamp": "20260910T151446",
+    "total_cases": 10,
+    "passed_cases": 10,
+    "failed_cases": 0,
+    "pass_percentage": 100.0,
+    "avg_iterations": 1.9,
+    "avg_total_tokens": 114.0,
+    "estimated_avg_cost_usd": 3.42e-05,
+    "notable_termination_failures": []
+  }
+}
